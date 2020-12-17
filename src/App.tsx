@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.webp';
 import './App.css';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (
@@ -10,6 +11,16 @@ function App() {
         <p>
           Test Project to implement TWA
         </p>
+
+        <p>
+          Choose your life path:
+        </p>
+
+        <div className="actions-container">
+          <button className="choose-button">STREET KID</button>
+          <button className="choose-button">NOMAD</button>
+          <button className="choose-button">CORPO</button>
+        </div>
       </header>
     </div>
   );
